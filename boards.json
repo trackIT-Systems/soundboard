@@ -6,37 +6,42 @@
                 {
                     "file": "cs-ok-lets-go.mp3",
                     "description": "Okay let's go.",
-                    "category": "Speech"
+                    "category": "Counter Strike"
                 },
                 {
-                    "file": "cs-ok-lets-go2.mp3",
-                    "description": "Okay let's go.",
-                    "category": "Speech"
+                    "file": "cs_go_go_go.mp3",
+                    "description": "Go, go, go.",
+                    "category": "Counter Strike"
                 },
                 {
-                    "file": "cs-ok-lets-go3.mp3",
-                    "description": "Okay let's go.",
-                    "category": "Speech"
+                    "file": "cs_affirmative.mp3",
+                    "description": "Affirmative.",
+                    "category": "Counter Strike"
                 },
                 {
-                    "file": "cs-ok-lets-go4.mp3",
-                    "description": "Okay let's go.",
-                    "category": "Speech"
+                    "file": "cs_and_thats_how_its_done.mp3",
+                    "description": "And that's how it's done!",
+                    "category": "Counter Strike"
                 },
                 {
-                    "file": "cs-ok-lets-go5.mp3",
-                    "description": "Okay let's go.",
-                    "category": "Speech"
+                    "file": "cs_bomb-has-been-planted.mp3",
+                    "description": "Bomb has been planted.",
+                    "category": "Counter Strike"
                 },
                 {
-                    "file": "cs-ok-lets-go6.mp3",
-                    "description": "Okay let's go.",
-                    "category": "Speech"
+                    "file": "cs_fire_in_the_hole.mp3",
+                    "description": "Fire in the hole!",
+                    "category": "Counter Strike"
                 },
                 {
-                    "file": "cs-ok-lets-go7.mp3",
-                    "description": "Okay let's go.",
-                    "category": "Speech"
+                    "file": "cs-oh-boy.mp3",
+                    "description": "Oh boy...",
+                    "category": "Counter Strike"
+                },
+                {
+                    "file": "cs-terrorists-win.mp3",
+                    "description": "Terrorists win.",
+                    "category": "Counter Strike"
                 }
             ]
         }
