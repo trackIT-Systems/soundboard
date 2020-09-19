@@ -1,0 +1,15 @@
+{
+    "boards": [
+        {
+            "name": "VCP Soundboard",
+            "folder": "assets/",
+            "sounds": [
+                {
+                    "file": "cs-ok-lets-go.mp3",
+                    "description": "Okay let's go.",
+                    "category": "Speech"
+                }
+            ]
+        }
+    ]
+}
