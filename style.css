@@ -1,3 +1,11 @@
+body {
+  font: 16px Roboto, Arial, sans-serif;
+}
+
+a {
+  color: #999;
+}
+
 .block, div {
     box-sizing: border-box;
     position: relative;
@@ -50,4 +58,14 @@
   padding: 5px;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+footer{
+    background-color: #ffffff;
+    /* color: #EEE; */
+    padding: 5px 10px 5px 10px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: sticky;
 }

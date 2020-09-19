@@ -1,11 +1,40 @@
 {
     "boards": [
         {
-            "name": "VCP Soundboard",
             "folder": "assets/",
             "sounds": [
                 {
                     "file": "cs-ok-lets-go.mp3",
+                    "description": "Okay let's go.",
+                    "category": "Speech"
+                },
+                {
+                    "file": "cs-ok-lets-go2.mp3",
+                    "description": "Okay let's go.",
+                    "category": "Speech"
+                },
+                {
+                    "file": "cs-ok-lets-go3.mp3",
+                    "description": "Okay let's go.",
+                    "category": "Speech"
+                },
+                {
+                    "file": "cs-ok-lets-go4.mp3",
+                    "description": "Okay let's go.",
+                    "category": "Speech"
+                },
+                {
+                    "file": "cs-ok-lets-go5.mp3",
+                    "description": "Okay let's go.",
+                    "category": "Speech"
+                },
+                {
+                    "file": "cs-ok-lets-go6.mp3",
+                    "description": "Okay let's go.",
+                    "category": "Speech"
+                },
+                {
+                    "file": "cs-ok-lets-go7.mp3",
                     "description": "Okay let's go.",
                     "category": "Speech"
                 }

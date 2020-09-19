@@ -12,22 +12,22 @@ class Controller {
 
         html += "<div class='soundboardButton'>";
         html += "<div id='button-" + id + "'>" + description + "<br/><small>" + category + "</small><br/></div>";
-        html += "<hr/>";
-        html += '<input id="slider-' + id + '" type="range" min="0" max="1" step="0.01" value="1">'
-        html += '<input id="checkbox-' + id + '" type="checkbox" name="opt[]" value="parken"> Looped<br>';
+        // html += "<hr/>";
+        // html += '<input id="slider-' + id + '" type="range" min="0" max="1" step="0.01" value="1"></input>'
+        // html += '<input id="checkbox-' + id + '" type="checkbox" name="opt[]" value="parken">loop</input>';
         html += '<div class="progress" id="progress-' + id + '"></div>';
         html += "</div>";
 
         $("#pane").append(html);
 
-        $("#checkbox-" + id).change(function() {
+        $("#checkbox-" + id).change(function () {
             console.log("state + " + id);
             var checked = $("#checkbox-" + id).prop("checked");
             this.player[id].loop(checked);
 
         }.bind(this));
 
-        $("#slider-" + id).on('input', '', function() {
+        $("#slider-" + id).on('input', '', function () {
 
             var volumeLevel = $("#slider-" + id).val();
 
@@ -38,7 +38,7 @@ class Controller {
 
         this.player.push(new Player(filename));
 
-        $("#button-" + id).click(function() {
+        $("#button-" + id).click(function () {
 
             console.log(id);
 
@@ -63,7 +63,7 @@ class Controller {
     }
 
     setTimeoutFor(id, duration) {
-        setTimeout(function() {
+        setTimeout(function () {
 
             $("#progress-" + id).css("transition", "");
             $("#progress-" + id).css("width", "0%");
@@ -87,9 +87,9 @@ class Controller {
 
         // Load board configurations from json
         var request = new XMLHttpRequest();
-        request.open('GET', 'boards.json', true);
+        request.open('GET', './boards.json', true);
 
-        request.onload = function() {
+        request.onload = function () {
             if (request.status >= 200 && request.status < 400) { // Success!
 
                 console.log("Read JSON");
@@ -112,7 +112,7 @@ class Controller {
             }
         }.bind(this);
 
-        request.onerror = function() { // There was a connection error of some sort
+        request.onerror = function () { // There was a connection error of some sort
             console.log("Can't establish connection.");
         };
 
