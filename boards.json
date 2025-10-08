@@ -42,6 +42,11 @@
                     "file": "cs-terrorists-win.mp3",
                     "description": "Terrorists win.",
                     "category": "Counter Strike"
+                },
+                {
+                    "file": "Graureiher.mp3",
+                    "description": "Graureiher",
+                    "category": "Jonas"
                 }
             ]
         }
