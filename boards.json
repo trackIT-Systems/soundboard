@@ -4,49 +4,19 @@
             "folder": "assets/",
             "sounds": [
                 {
-                    "file": "cs-ok-lets-go.mp3",
-                    "description": "Okay let's go.",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "cs_go_go_go.mp3",
-                    "description": "Go, go, go.",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "cs_affirmative.mp3",
-                    "description": "Affirmative.",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "cs_and_thats_how_its_done.mp3",
-                    "description": "And that's how it's done!",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "cs_bomb-has-been-planted.mp3",
-                    "description": "Bomb has been planted.",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "cs_fire_in_the_hole.mp3",
-                    "description": "Fire in the hole!",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "cs-oh-boy.mp3",
-                    "description": "Oh boy...",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "cs-terrorists-win.mp3",
-                    "description": "Terrorists win.",
-                    "category": "Counter Strike"
-                },
-                {
-                    "file": "Graureiher.mp3",
+                    "file": "jh-graureiher.mp3",
                     "description": "Graureiher",
                     "category": "Jonas"
+                },
+                {
+                    "file": "jh-es-funktioniert-juhu.mp3",
+                    "description": "Es funktioniert, juhu!",
+                    "category": "Jonas"
+                },
+                {
+                    "file": "spies-hey-boomer.mp3",
+                    "description": "Hey Boomer",
+                    "category": "Dr. Thomas Spies"
                 }
             ]
         }
